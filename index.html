@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
+		<link rel="icon" href="https://s.iimg.su/s/03/gTkbxNexjROwt6O1OpYzPIdRNoOPGtZktqqQhI5H.png" type="image/x-icon">
+		<title>Soretro Articles</title>
+    </head>
+	<style>
+	body {
+font-family: sans-serif;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+#fuckawesome {
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  background: none;
+  -webkit-animation: pulsate 0.2s linear infinite;
+  animation: pulsate 0.2s linear infinite;
+}
+@-webkit-keyframes holyfuck {
+ 10% { transform: scale(1, 1) rotate(80deg); }
+ 20% { transform: scale(0, 0) rotate(160deg); }
+ 100% { transform: scale(0, 0) rotate(0deg); }
+}
+@keyframes holyfuck {
+ 10% { transform: scale(1, 1) rotate(80deg); }
+ 20% { transform: scale(0, 0) rotate(160deg); }
+ 100% { transform: scale(0, 0) rotate(0deg); }
+}
+#holyfuck {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 10px #3d7a97;
+}
+#holyfuck:after, #holyfuck:before {
+  content: "";
+  position: absolute; top: 0; left: 0;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: 
+    radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
+    linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
+    linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
+  -webkit-animation: holyfuck 10s linear infinite;
+  animation: holyfuck 10s linear infinite;
+  transform: scale(0, 0) rotate(0deg);
+}
+#holyfuck:before {
+  top: -30%;
+  right: 0; left: auto;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+#shit {
+  -webkit-animation: shit 4.8s linear infinite;
+  animation: shit 4.8s linear infinite;
+  text-shadow: 0 0 50px #FF88CC;
+}
+@-webkit-keyframes shit {
+  0% { color: rgb(222, 0, 128); }
+  50% { color: rgb(248, 0, 186); }
+  100% { color: rgb(222, 0, 128); }
+}
+@keyframes shit {
+  0% { color: rgb(222, 0, 128); }
+  50% { color: rgb(255, 0, 186); }
+  100% { color: rgb(222, 0, 128); }
+}
+a{
+  color: black;
+}
+b{
+  color: black;
+}
+c{
+  color: black;
+}
+d{
+  color: black;
+  font-family: monospace;
+}
+
+div.desc {
+  padding: 18px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  position: static;
+  float: center;
+}
+#alexkidd {
+  position: absolute;
+  left: 44px;
+}
+#samusaran {
+  position: absolute;
+  right: 44px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a, u {
+  text-decoration: none;
+}
+ .box {
+   width: 232px;
+   height: 172px;
+   background-color: white;
+   border: 3px solid black;
+   padding: 11px;
+   position: absolute;
+}
+ img {
+   max-width: 100%;
+   min-height: 100%;
+}
+@media (min-height: 333px) {
+  img {
+    height: 5%;
+  }
+}
+</style>
+<center>
+	<body>
+        <img srcset="https://i.ibb.co/m5g4mRLq/gifgif.gif" alt="Coologo" width="555" height="333">
+		<c><big><p id="coolcrazyquotes"></p></big></c>
+    <script>
+        const texts = [
+            "For major league gamers. By major league gamers.",
+			"Imagine if it all was ironic?",
+			"Ross Scott is favouriting all my reviews.",
+			"Guys I promise I will never buy the domain I swear.",
+			"Nintendo has permanently damaged the youth for centuries.",
+			"Step aside, Syd Lexia.",
+			"So how's the website?",
+			"I'd like to murder somebody not because of videogames.",
+			"Fuck this quote.",
+			"Damn, how do I restrict people from this site by IP?",
+			"Hey, read this.",
+			"If you're still not sure about Nintendo, just search any article on rape in Japan.",
+			"What? You think I was going to make a review? Fuck no.",
+			"I think drawing is for faggots who do not appreciate life.",
+			"I have no such knowledge for any of this.",
+			"Crazy Events ALWAYS Happening on this website, check it.",
+			"I fucking hate Ray William Johnson, and it's not satire.",
+			"Are you expecting a funny quote? Refresh again.",
+			"Please refresh this page.",
+			"I'd like to say something that's against your beliefs if that sits with you.",
+			"Would you be shocked if I told you?",
+			"Fuck... Sorry, I don't feel like writing any articles for today.",
+			"I'm not joking when I say I want to fucking murder the president of Finland.",
+			"My name is Kurt, what's yours?",
+            "R.I.P. Jackson..."
+        ];
+
+        const randomIndex = Math.floor(Math.random() * texts.length);
+        document.getElementById('coolcrazyquotes').innerText = texts[randomIndex];
+    </script>
+    <a href="https://soretroentertainment.github.io/www.soretroentertainment.com-invadersmustdie/"><img srcset="https://s.iimg.su/s/02/g0spn4LxPA6hMh0Y8Fplaw4skIRvZr88ubYKHl63.png" alt="Invaders Must Die" width="300" height="222"></a>
+	</center>
+	</body>
+</html>

@@ -14,70 +14,6 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 }
-@-webkit-keyframes pulsate {
- 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
-}
-@keyframes pulsate {
- 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
-}
-#fuckawesome {
-  color: rgb(245,245,245);
-  text-shadow: 0 -1px rgba(0,0,0,.1);
-  background: none;
-  -webkit-animation: pulsate 0.2s linear infinite;
-  animation: pulsate 0.2s linear infinite;
-}
-@-webkit-keyframes holyfuck {
- 10% { transform: scale(1, 1) rotate(80deg); }
- 20% { transform: scale(0, 0) rotate(160deg); }
- 100% { transform: scale(0, 0) rotate(0deg); }
-}
-@keyframes holyfuck {
- 10% { transform: scale(1, 1) rotate(80deg); }
- 20% { transform: scale(0, 0) rotate(160deg); }
- 100% { transform: scale(0, 0) rotate(0deg); }
-}
-#holyfuck {
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  text-shadow: 0 0 10px #3d7a97;
-}
-#holyfuck:after, #holyfuck:before {
-  content: "";
-  position: absolute; top: 0; left: 0;
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-image: 
-    radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
-    linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
-    linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
-  -webkit-animation: holyfuck 10s linear infinite;
-  animation: holyfuck 10s linear infinite;
-  transform: scale(0, 0) rotate(0deg);
-}
-#holyfuck:before {
-  top: -30%;
-  right: 0; left: auto;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
-}
-#shit {
-  -webkit-animation: shit 4.8s linear infinite;
-  animation: shit 4.8s linear infinite;
-  text-shadow: 0 0 50px #FF88CC;
-}
-@-webkit-keyframes shit {
-  0% { color: rgb(222, 0, 128); }
-  50% { color: rgb(248, 0, 186); }
-  100% { color: rgb(222, 0, 128); }
-}
-@keyframes shit {
-  0% { color: rgb(222, 0, 128); }
-  50% { color: rgb(255, 0, 186); }
-  100% { color: rgb(222, 0, 128); }
-}
 a{
   color: black;
 }
@@ -90,33 +26,6 @@ c{
 d{
   color: black;
   font-family: monospace;
-}
-
-div.desc {
-  padding: 18px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  position: static;
-  float: center;
-}
-#alexkidd {
-  position: absolute;
-  left: 44px;
-}
-#samusaran {
-  position: absolute;
-  right: 44px;
-}
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 a, u {
   text-decoration: none;
@@ -141,7 +50,9 @@ a, u {
 </style>
 <center>
 	<body>
-        <a href="https://soretroentertainment.github.io/www.soretroentertainment.com/"><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/49f9d1d566379ddf838cbe5d4dce5cb5da0244c9/WebsiteLogo.gif" alt="Back to Main Menu" width="777" height="555"></a>
+        <a href="https://soretroentertainment.github.io/www.soretroentertainment.com/">
+		<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/49f9d1d566379ddf838cbe5d4dce5cb5da0244c9/WebsiteLogo.gif" 
+		alt="Back to Main Menu" width="777" height="555"></a>
 		<c><big><p id="coolcrazyquotes"></p></big></c>
     <script>
         const texts = [
@@ -175,8 +86,12 @@ a, u {
         const randomIndex = Math.floor(Math.random() * texts.length);
         document.getElementById('coolcrazyquotes').innerText = texts[randomIndex];
     </script>
-    <a href="https://soretroentertainment.github.io/www.soretroentertainment.com-invadersmustdie/"><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/49f9d1d566379ddf838cbe5d4dce5cb5da0244c9/InvadersMustDieAudioplayerCartridge.png" alt="Invaders Must Die" width="300" height="222"></a>
-	<p><br><a href="https://soretroentertainment.github.io/www.soretroentertainment.com-deusex2/"><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/6c6f3c366760317666c4544b98819e1596b1f9ad/DeusEx2AudioplayerCartridge.png" alt="Deus Ex 2" width="300" height="222"></a></p>
+    <a href="https://soretroentertainment.github.io/www.soretroentertainment.com-invadersmustdie/">
+	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/49f9d1d566379ddf838cbe5d4dce5cb5da0244c9/InvadersMustDieAudioplayerCartridge.png" 
+	alt="Invaders Must Die" width="300" height="222"></a>
+	<p><br><a href="https://soretroentertainment.github.io/www.soretroentertainment.com-deusex2/">
+	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/6c6f3c366760317666c4544b98819e1596b1f9ad/DeusEx2AudioplayerCartridge.png" 
+	alt="Deus Ex 2" width="300" height="222"></a></p>
 	</center>
 	</body>
 </html>

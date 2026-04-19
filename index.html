@@ -3,40 +3,18 @@
     <head>
 	    <meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
-		<link rel="icon" href="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/49f9d1d566379ddf838cbe5d4dce5cb5da0244c9/ArticlesFavicon.gif" type="image/x-icon">
+		<link rel="icon" href="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/b4088921f98b57b336db9d970ebd94def00f8498/WebFavicon.png" type="image/x-icon">
 		<title>Soretro Articles</title>
     </head>
 	<style>
 	body {
 font-family: sans-serif;
-background-color: #FFFFFF;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 }
-a{
-  color: black;
-}
-b{
-  color: black;
-}
-c{
-  color: black;
-}
-d{
-  color: black;
-  font-family: monospace;
-}
 a, u {
   text-decoration: none;
-}
- .box {
-   width: 232px;
-   height: 172px;
-   background-color: white;
-   border: 3px solid black;
-   padding: 11px;
-   position: absolute;
 }
  img {
    max-width: 100%;
@@ -45,6 +23,38 @@ a, u {
 @media (min-height: 333px) {
   img {
     height: 5%;
+  }
+}
+.day {
+  background-color: white;
+  a{
+  color: black;
+  }
+  b{
+  color: black;
+  }
+  c{
+  color: black;
+  }
+  d{
+  color: black;
+  font-family: monospace;
+  }
+}
+.night {
+  background-color: black;
+  a{
+  color: white;
+  }
+  b{
+  color: white;
+  }
+  c{
+  color: white;
+  }
+  d{
+  color: white;
+  font-family: monospace;
   }
 }
 </style>
@@ -86,6 +96,13 @@ a, u {
 
         const randomIndex = Math.floor(Math.random() * texts.length);
         document.getElementById('coolcrazyquotes').innerText = texts[randomIndex];
+		
+		    var now = new Date();
+    if (now.getHours() > 7 && now.getHours() < 21) {
+    document.body.className += " day";
+    } else {
+    document.body.className += " night";
+    }
     </script>
     <a href="https://soretroentertainment.github.io/www.soretroentertainment.com-invadersmustdie/">
 	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-articles/49f9d1d566379ddf838cbe5d4dce5cb5da0244c9/InvadersMustDieAudioplayerCartridge.png" 

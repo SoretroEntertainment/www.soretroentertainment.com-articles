@@ -1,0 +1,58 @@
+body {
+font-family: sans-serif;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+a {
+  text-decoration: none;
+}
+ img {
+   max-width: 100%;
+   min-height: 100%;
+}
+@media (min-height: 333px) {
+  img {
+    height: 5%;
+  }
+}
+.day {
+  background-image: url("https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebBackground.gif");
+  background-color: white;
+  a{
+  color: black;
+  }
+  b{
+  color: black;
+  }
+  c{
+  color: black;
+  text-shadow: -2px 0px 0px white, 0 0 1em white;
+  }
+  d{
+  color: black;
+  font-family: monospace;
+  }
+}
+.night {
+  background-image: url("https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebBackgroundNight.gif");
+  background-color: black;
+  a{
+  color: white;
+  }
+  b{
+  color: white;
+  }
+  c{
+  color: white;
+  text-shadow: 2px 1px 2px black, 0 0 1em black;
+  }
+  d{
+  color: white;
+  font-family: monospace;
+  }
+}
+.shadow {
+  -webkit-filter: drop-shadow(0px 0px 8px #222);
+  filter: drop-shadow(0px 0px 8px #222);
+}
